@@ -3,9 +3,22 @@ import React from "react";
 
 
 import { Line } from "react-chartjs-2";
-
+export const options = {
+  scales: {
+   yAxes: [{
+       ticks: {
+          display: false
+        }
+    }]
+}
+}
 const data = {
   labels: ["Total Enrollements", "Completion", "Quallified Candidates", "Reached Out", "Interview Set", "Candidates Hired"],
+  scales: {
+    yAxes: [{
+           display: "false"
+     }]
+ },
   datasets: [
     {
       label: "",
@@ -22,7 +35,11 @@ const data = {
  
 export default function Graphic1() {
   return (
-    <div className="Graphic1">
+    <div className="Graphic1" style={{ 
+    width: '475px',
+   
+    
+    }} options={options} >
       <Line data={data} />
     </div>
   );
