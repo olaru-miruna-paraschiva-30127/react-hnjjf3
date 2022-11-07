@@ -31,7 +31,7 @@ export default function Graphic(){
  datasets: [
    { 
      label: '',
-     backgroundColor: 'rgba(75,192,92,1)',
+     backgroundColor: 'rgb(206,200,239)',
      
      
      data: [65, 59, 80, 81, 56]
@@ -40,15 +40,8 @@ export default function Graphic(){
  ]}}
           options={{
             
-            title:{
-              display:true,
-              text:'Average Rainfall per month',
-              fontSize:20
-            },
-            legend:{
-              display:false,
-              position:'right'
-            }
+           
+            
           }}
         />
         
