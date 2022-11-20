@@ -27,8 +27,8 @@ const data = {
     
       
       fill: true,
-      backgroundColor: "rgb(191,0,255) ",
-      borderColor: "rgb(191,0,255)"
+      backgroundColor: " rgb(127,0,255)",
+      borderColor: "rgb(127,0,255)"
     }
   ]
 };

@@ -31,7 +31,7 @@ export default function Graphic(){
  datasets: [
    { 
      label: '',
-     backgroundColor: 'rgb(206,200,239)',
+     backgroundColor: 'rgb(127,0,255)',
      
      
      data: [65, 59, 80, 81, 56]
