@@ -436,12 +436,18 @@ export default function App() {
      </div>
      </div>
    <div>
+     <div>
+     <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Row.png' height="85"/></div>
+     <div>
+     <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Row.png'height="85"/></div>
+     <div>
+     <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Row.png'height="85"/></div>
+     <div>
+     <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Row.png'height="85"/></div>
+     <div>
+     <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Row.png'height="85"/></div>
      
-     <Graphic/>
-     <Graphic/>
-     <Graphic/>
-     <Graphic/>
-     <Graphic/>
+     
    </div>
    <div>
    <div  style={{  

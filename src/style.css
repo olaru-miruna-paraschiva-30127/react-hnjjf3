@@ -26,6 +26,7 @@ nav {
   padding: 20px;
   border: 1px solid white;
        border-Radius: 15px;
+       box-shadow:  5px 5px 10px 2px rgba(216, 215, 215, 0.8);
 }
 
 /* Style the list inside the menu */
