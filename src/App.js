@@ -237,22 +237,31 @@ export default function App() {
  </div>
  
   </div>
+  <br/>
   <div style={{  
   display:'flex',
     flex:1,
    flexdirection:'row-reverse'
    }} >
-  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/00.png'/>
-  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/10.png'/>
-  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/211.png'/>
-  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/30.png'/>
-  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/40.png'/>
-  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/50.png'/>
+  <div style={{width:'16.5%'}}>   
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/00.png'width="100%"height="116px"/><div style={{width:'100%'}} ><p style={{fontSize:'17px'}}>100,000</p><p style={{fontSize:'12px'}}>Total Enrollements</p></div></div>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Line%2090.png'height="166px"/>
+  <div>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/10.png'width="100%"height="116px"/><div style={{width:'100%'}} ><p style={{fontSize:'17px'}}>65,000</p><p style={{fontSize:'12px'}}>Completion</p></div></div>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Line%2090.png'height="166px"/>
+ <div style={{backgroundColor:'rgb(224,224,224)',height:'200px', borderRadius:'10px'}}> <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/211.png'width="100%"height="116px"/><div style={{width:'100%'}} ><p style={{fontSize:'17px'}}>850</p><p style={{fontSize:'12px'}}>Qualified Candidates</p></div></div>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Line%2090.png' height="166px"/>
+ <div> <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/30.png'width="100%"height="116px"/><div style={{width:'100%'}} ><p style={{fontSize:'17px'}}>375</p><p style={{fontSize:'12px'}}>Reached Out</p></div></div>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Line%2090.png'height="166px"/>
+ <div> <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/40.png'width="100%"height="116px" /><div style={{width:'100%'}} ><p style={{fontSize:'17px'}}>300</p><p style={{fontSize:'12px'}}>Interview Set</p></div></div>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/Line%2090.png' height="166px"/>
+ <div> <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/50.png'width="100%"height="116px"/><div style={{width:'100%'}} ><p style={{fontSize:'17px'}}>150</p><p style={{fontSize:'12px'}}>Candidates Hired</p></div></div>
 
   </div>
+  
     
    </div>
-    
+   
     
   </article>
  
