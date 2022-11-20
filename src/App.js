@@ -15,6 +15,7 @@ import {VscGraph} from "react-icons/vsc";
 import {BsPeople} from "react-icons/bs";
 import {TbCircles} from "react-icons/tb";
 
+
 export default function App() {
   const [active, setActive] = useState(false);
   const handleClick = () => {
@@ -234,10 +235,11 @@ export default function App() {
      
     flexdirection:'row-reverse'}}><div style={{color:'rgb(153,50,204)'}}> <MdOutlineDateRange/> </div><div>Select dates</div></div> </button>  
  </div>
+ 
   </div>
   
+  <img src='./image1.png'/>
   
-    <Graphic1/>
     
    </div>
     
