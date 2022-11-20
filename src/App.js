@@ -53,7 +53,10 @@ export default function App() {
 
   <nav>
   <div>
-   <h1> RadicalX</h1>
+    <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/RadicallX-Black-Logo%201.png'/>
+   <br/>
+   <br/>
+   <br/>
    <br/>
   <button onClick={() =>{ h1();}} style={{
        border:a1?'1px solid white': '1px solid rgb(153,50,204)',
