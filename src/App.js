@@ -244,9 +244,10 @@ export default function App() {
    }} >
   <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/00.png'/>
   <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/10.png'/>
-  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/21.png'/>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/211.png'/>
   <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/30.png'/>
   <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/40.png'/>
+  <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/50.png'/>
 
   </div>
     
