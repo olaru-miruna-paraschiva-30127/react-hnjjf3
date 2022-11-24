@@ -47,18 +47,19 @@ export default function App() {
   };
   const text = 'Name';
   const date = 'Date';
+  
   return (
     <div>
 
 
   <nav>
   <div>
-    <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/RadicallX-Black-Logo%201.png'/>
+    <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/RadicallX-Black-Logo%201.png' width="100%"/>
    <br/>
    <br/>
    <br/>
    <br/>
-  <button onClick={() =>{ h1();}} style={{
+  <button onClick={() =>{ }} style={{
        border:a1?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -69,7 +70,7 @@ export default function App() {
      }}  > <TbLayoutDashboard/> Dashboard </button>  <br/>
   <br/>
   
-  <button onClick={() =>{ h2();}} style={{
+  <button onClick={() =>{ }} style={{
        border:a2?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -80,16 +81,16 @@ export default function App() {
      }} > <FaMedal/> Apprenterships</button>  <br/>
   <br/>
   <button onClick={h3} style={{
-       border:a3?'1px solid white': '1px solid rgb(153,50,204)',
+       border:/*a3?'1px solid white':*/ '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
         height:'45px',
         width:'100%',
-        backgroundColor:a3? "white" : 'rgb(204,204,255)',
-     color:a3 ?'black':'rgb(153,50,204)'
+        backgroundColor:/*a3? "white" :*/ 'rgb(204,204,255)',
+     color:/*a3 ?'black':*/'rgb(153,50,204)'
      }}><HiOutlineBookOpen/> Internships</button>  <br/>
   <br/>
-  <button onClick={h4} style={{
+  <button onClick={} style={{
        border:a4?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -99,7 +100,7 @@ export default function App() {
      color:a4 ?'black':'rgb(153,50,204)'
      }}> <TbBriefcase/> Jobs </button>  <br/>
   <br/>
-  <button onClick={h5} style={{
+  <button onClick={} style={{
        border:a5?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -154,7 +155,7 @@ export default function App() {
   
   }}>
     
-  <button   style={{border: '1px solid purple',borderRadius: '10px',
+  <button onClick={}  style={{border: '1px solid purple',borderRadius: '10px',
      padding:'px',
      height:'33px',
      backgroundColor: 'rgb(127,0,255)',
