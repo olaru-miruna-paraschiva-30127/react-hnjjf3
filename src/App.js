@@ -18,6 +18,10 @@ import {TbCircles} from "react-icons/tb";
 import { Link } from 'react-router-dom';
 
 export default function App(v) {
+  const [t1, tA1] = useState(true);
+  const ht1 = () => {
+    tA1(!t1);
+  };
   const openInNewTab = url => {
     window.open(url);
   };
@@ -51,6 +55,7 @@ export default function App(v) {
   };
   const text = 'Name';
   const date = 'Date';
+  if(t1==false){window.open("https://react-9xlawu.stackblitz.io/")}
   
   return (
     <div>
@@ -159,12 +164,16 @@ export default function App(v) {
   
   }}>
    
-  <button   style={{border: '1px solid purple',borderRadius: '10px',
+  <button onClick={ht1}  style={{border: '1px solid purple',borderRadius: '10px',
      padding:'px',
      height:'33px',
      backgroundColor: 'rgb(127,0,255)',
      color:'white'
-     }}  > <CgAddR/> Create New Internship </button>  <br/>
+     
+     
+     }}   > <CgAddR/> Create New Internship </button> 
+     
+      <br/>
   </div>
   
 <div  >
@@ -523,6 +532,8 @@ export default function App(v) {
    
    
     </div>
+    
   );
+  
 }
 
