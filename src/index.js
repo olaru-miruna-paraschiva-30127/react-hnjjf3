@@ -5,7 +5,7 @@ import App from './App';
 import Page2 from './Page2';
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
-let b=true;
+let b=false;
 root.render(
   /*<StrictMode>*/
  b? <Page2/>:<App/>
