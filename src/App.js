@@ -5,6 +5,7 @@ import {CgAddR} from "react-icons/cg";
 import {MdOutlineDateRange} from "react-icons/md";
 import Graphic1 from './Graphic1';
 import Graphic from './Graphic';
+import Page2 from './Page2';
 import React, { useState } from "react";
 import {TbLayoutDashboard} from "react-icons/tb";
 import {FaMedal} from "react-icons/fa";
@@ -14,9 +15,12 @@ import {FiSettings} from "react-icons/fi";
 import {VscGraph} from "react-icons/vsc";
 import {BsPeople} from "react-icons/bs";
 import {TbCircles} from "react-icons/tb";
+import { Link } from 'react-router-dom';
 
-
-export default function App() {
+export default function App(v) {
+  const openInNewTab = url => {
+    window.open(url);
+  };
   const [active, setActive] = useState(false);
   const handleClick = () => {
     setActive(!active);
@@ -59,7 +63,7 @@ export default function App() {
    <br/>
    <br/>
    <br/>
-  <button onClick={() =>{ }} style={{
+  <button  style={{
        border:a1?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -70,7 +74,7 @@ export default function App() {
      }}  > <TbLayoutDashboard/> Dashboard </button>  <br/>
   <br/>
   
-  <button onClick={() =>{ }} style={{
+  <button  style={{
        border:a2?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -90,7 +94,7 @@ export default function App() {
      color:/*a3 ?'black':*/'rgb(153,50,204)'
      }}><HiOutlineBookOpen/> Internships</button>  <br/>
   <br/>
-  <button onClick={} style={{
+  <button  style={{
        border:a4?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -100,7 +104,7 @@ export default function App() {
      color:a4 ?'black':'rgb(153,50,204)'
      }}> <TbBriefcase/> Jobs </button>  <br/>
   <br/>
-  <button onClick={} style={{
+  <button  style={{
        border:a5?'1px solid white': '1px solid rgb(153,50,204)',
        borderRadius: '10px',
       
@@ -154,8 +158,8 @@ export default function App() {
   boxsizing: 'border-box'
   
   }}>
-    
-  <button onClick={}  style={{border: '1px solid purple',borderRadius: '10px',
+   
+  <button onClick={openInNewTab('https://google.com')}  style={{border: '1px solid purple',borderRadius: '10px',
      padding:'px',
      height:'33px',
      backgroundColor: 'rgb(127,0,255)',
