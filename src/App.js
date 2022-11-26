@@ -159,18 +159,14 @@ export default function App(v) {
   
   }}>
    
-  <button type="submit" onClick="myFunction()"  style={{border: '1px solid purple',borderRadius: '10px',
+  <button   style={{border: '1px solid purple',borderRadius: '10px',
      padding:'px',
      height:'33px',
      backgroundColor: 'rgb(127,0,255)',
      color:'white'
      }}  > <CgAddR/> Create New Internship </button>  <br/>
   </div>
-  <script>
-function myFunction() {
-  location.replace("https://www.w3schools.com")
-}
-</script> 
+  
 <div  >
 
   <article>
