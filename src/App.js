@@ -164,14 +164,15 @@ export default function App(v) {
   
   }}>
    
-  <button onClick={ht1}  style={{border: '1px solid purple',borderRadius: '10px',
-     padding:'px',
+  <a href="https://react-9xlawu.stackblitz.io/"  style={{border: '1px solid purple',borderRadius: '10px',
+     padding:'3px',
      height:'33px',
      backgroundColor: 'rgb(127,0,255)',
-     color:'white'
+     color:'white',
+     fontSize:'15px'
      
      
-     }}   > <CgAddR/> Create New Internship </button> 
+     }}   > <CgAddR/> Create New Internship </a> 
      
       <br/>
   </div>
