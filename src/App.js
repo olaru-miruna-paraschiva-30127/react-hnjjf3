@@ -16,7 +16,7 @@ import {VscGraph} from "react-icons/vsc";
 import {BsPeople} from "react-icons/bs";
 import {TbCircles} from "react-icons/tb";
 import { Link } from 'react-router-dom';
-
+let k=0;
 export default function App(v) {
   const [t1, tA1] = useState(true);
   const ht1 = () => {
@@ -55,12 +55,12 @@ export default function App(v) {
   };
   const text = 'Name';
   const date = 'Date';
-  if(t1==false){window.open("https://react-9xlawu.stackblitz.io/")}
   
+  if(t1==false && k%2==0){window.open("https://react-9xlawu.stackblitz.io/"); k=k+1;}
+  if((t1==true ) && k%2==1 ){window.open("https://react-9xlawu.stackblitz.io/"); k=k+1;}
+ 
   return (
     <div>
-
-
   <nav>
   <div>
     <img src='https://cdn.jsdelivr.net/gh/olaru-miruna-paraschiva-30127/react-hnjjf3@main/RadicallX-Black-Logo%201.png' width="100%"/>
