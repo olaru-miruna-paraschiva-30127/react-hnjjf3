@@ -16,7 +16,7 @@ import {VscGraph} from "react-icons/vsc";
 import {BsPeople} from "react-icons/bs";
 import {TbCircles} from "react-icons/tb";
 import { Link } from 'react-router-dom';
-let k=0;
+let k=0; 
 export default function App(v) {
   const [t1, tA1] = useState(true);
   const ht1 = () => {
